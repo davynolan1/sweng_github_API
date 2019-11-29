@@ -4,7 +4,7 @@ My application takes the username entered in the search box and queries the gith
 1. A doughnut graph of all of the user's repositories and their sizes. The chart shows the percentage make-up of each repository.
 2. A bar chart of all the languages that the user has utilised in their repositories. 
 
-##Running the application
+## Running the application
 Clone the Repo and enter:
 ```
 npm start
