@@ -1,0 +1,86 @@
+.header-text {
+    color: red;
+}
+
+.font-xl {
+    font-size: 80px;
+}
+
+.profile-info {
+    text-align: left;
+    position: absolute;
+    right: 150px;
+    top: 450px;
+    font-size: 20px;
+}
+
+.profile-img {
+    position: absolute;
+    right: 700px;
+    top: 380px;
+}
+
+.profile-img-size {
+    width: 450px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.form {
+    text-align: center;
+    position: center;
+}
+
+.input-box {
+    font-size: 20px;
+}
+
+.details-headings {
+    color: gray;
+}
+
+.details {
+    color: white;
+}
+
+.header img {
+    float: relative;
+    width: 50px;
+    height: 50px;
+    background: rgba(85, 85, 85, 0);
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.header h1 {
+    text-align: center;
+    top: 18px;
+    left: 10px;
+}
+
+.bar-chart {
+    top: 1000px;
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    right: 80px;
+}
+
+.donut {
+    top: 1000px;
+    position: absolute;
+    text-align: center;
+    width: 870px;
+    height: auto;
+    right: 550px;
+}
+
+.my-name {
+    bottom: 10px;
+    font-size: 10px;
+    position: fixed;
+    right: 10px;
+    color: gray;
+}
