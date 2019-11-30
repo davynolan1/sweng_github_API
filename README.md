@@ -5,7 +5,12 @@ My application takes the username entered in the search box and queries the gith
 2. A bar chart of all the languages that the user has utilised in their repositories. 
 
 ## Running the application
-Clone the Repo and enter:
+1. Clone the Repo.
+2. Open src/App.jsx and enter your github access token into:
+ ```
+    const token = "";
+ ```
+3. Save file and enter:
 ```
 npm start
 ```
