@@ -35,16 +35,17 @@ class App extends Component {
   }
   handleUserFormSubmit(event) {
     event.preventDefault();
-
+    //---INSERT GITHUB ACCESS TOKEN BELOW---
     const token = "";
+    //--------------------------------------
     this.setState({ infoclean: ' ' }); 
     this.setState({ repos: ' ' });
-    axios.get('https://api.github.com/users/' + this.state.formData.username + '/repos?access_token=59369a9561cf99ed62f19fd9b2539ca8c1f35de0' + token, {}).then(response => this.setState({
+    axios.get('https://api.github.com/users/' + this.state.formData.username + '/repos?access_token=' + token, {}).then(response => this.setState({
       repos: response.data,
     })).catch((err) => { console.log(err); });
 
 
-    axios.get('https://api.github.com/users/' + this.state.formData.username + '?access_token=59369a9561cf99ed62f19fd9b2539ca8c1f35de0' + token).then(response => this.setState({
+    axios.get('https://api.github.com/users/' + this.state.formData.username + '?access_token=' + token).then(response => this.setState({
       gitun: response.data.login,
       infoclean: ' ',
       infoclean: response.data,
