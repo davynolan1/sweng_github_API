@@ -1,3 +1,5 @@
+Repository for my individual Software Engineering Project in year 3 of college.
+
 ![](tutorial.gif)
 <br/>
 My application takes the username entered in the search box and queries the github API to find the profile of the user. It then uses the gathered data to display on the application page. Using chartjs2, I have created 2 graphs:
